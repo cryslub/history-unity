@@ -1,0 +1,31 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="VisualElement" style="flex-grow: 1; height: 30px; max-height: 30px; top: 30px; left: 0;">
+        <ui:Button text="M" parse-escape-sequences="true" display-tooltip-when-elided="true" name="MainMenuButton" style="width: 20px; height: 20px;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="ZoomElement" style="flex-grow: 1; justify-content: center; top: 20px;">
+        <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ZoomInButton" style="width: 16px; white-space: nowrap; height: 20px; position: relative; right: 0; align-self: flex-end;" />
+        <ui:Button text="-" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ZoomOutButton" style="flex-shrink: initial; width: 16px; height: 20px; position: relative; align-self: flex-end;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="DetailElement" style="flex-grow: 1; background-color: rgba(0, 0, 0, 0.35); height: 100px; max-height: 100px;">
+        <ui:VisualElement name="VisualElement" style="flex-grow: 1; max-height: 25px; margin-top: 5px; flex-direction: row; justify-content: space-between; margin-bottom: 5px;">
+            <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-self: auto; align-items: auto; justify-content: flex-start; height: 33px;">
+                <ui:VisualElement name="FactionColorElement" style="flex-grow: 1; background-color: rgb(233, 41, 41); width: 20px; max-width: 20px; min-width: 20px; left: 2px; bottom: 0; height: 20px; max-height: 20px; min-height: 20px; align-self: flex-start; top: 5px; margin-right: 5px; margin-left: 5px;" />
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CityNameLabel" style="color: rgb(255, 255, 255);" />
+                <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="PopulationLabel" style="color: rgb(255, 255, 255); font-size: 10px;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="BuildingElement" style="flex-grow: 1; display: none;" />
+        <ui:VisualElement name="UnitElement" style="flex-grow: 1;">
+            <ui:ScrollView name="ScrollView" mode="Horizontal" style="flex-direction: row;">
+                <ui:Button text="U" parse-escape-sequences="true" display-tooltip-when-elided="true" name="TempUnitButton" style="height: 30px; width: 30px; justify-content: flex-start; background-image: url(&apos;project://database/Assets/2D/character.png?fileID=2800000&amp;guid=c5e2ebc7320e3014dbd7c7581b2cfce1&amp;type=3#character&apos;); background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+                <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddUnitButton" style="height: 30px; width: 30px; justify-content: flex-start;" />
+            </ui:ScrollView>
+        </ui:VisualElement>
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; height: 25px; max-height: 25px; align-self: auto; justify-content: center; margin-bottom: 5px;">
+            <ui:Button text="B" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BuildingsButton" style="width: 20px;" />
+            <ui:Button text="U" parse-escape-sequences="true" display-tooltip-when-elided="true" name="HerosButton" style="width: 20px;" />
+            <ui:Button text="R" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ResourcesButton" style="align-self: auto; width: 20px;" />
+            <ui:Button text="X" parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseDetailButton" style="width: 20px; align-self: auto;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

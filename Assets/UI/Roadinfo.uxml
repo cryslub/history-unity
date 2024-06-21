@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; flex-direction: column; height: 343px;">
+        <ui:VisualElement style="flex-grow: 0; flex-direction: row; height: 25px; flex-shrink: 0;">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Start" />
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="End" />
+        </ui:VisualElement>
+        <ui:TextField picking-mode="Ignore" name="Waypoint" binding-path="waypoint" multiline="true" style="flex-grow: 0; height: 108px;" />
+        <ui:TextField picking-mode="Ignore" name="ElevationAdj" binding-path="waypoint" multiline="true" style="flex-grow: 0; height: 101px;" />
+        <ui:Button text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Save" />
+    </ui:VisualElement>
+</ui:UXML>

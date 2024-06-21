@@ -1,0 +1,10 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; flex-direction: column; height: 29px;">
+        <ui:VisualElement style="flex-grow: 0; flex-direction: row; height: 28px; flex-shrink: 0;">
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Start" />
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="End" />
+            <ui:Button text="Edit" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Edit" />
+            <ui:Button text="Delete" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Delete" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

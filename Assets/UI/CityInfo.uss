@@ -1,0 +1,4 @@
+.the-uxml-listview {
+    --unity-item-height: 28;
+    height: 50px;
+}

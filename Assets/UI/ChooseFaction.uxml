@@ -1,0 +1,20 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="TopElement" style="flex-grow: 1; flex-direction: row; height: 36px; max-height: 36px; top: 25px; background-color: rgba(0, 0, 0, 0.39); padding-left: 5px;">
+        <ui:Button text="&lt;" parse-escape-sequences="true" display-tooltip-when-elided="true" name="BackButton" style="width: 20px; height: 20px; max-height: 20px; top: 5px; margin-left: 0;" />
+        <ui:VisualElement style="flex-grow: 1;">
+            <ui:Label tabindex="-1" text="Choose your faction" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ChooseYourFactionLabel" style="color: rgb(255, 255, 255); height: 8px; max-height: 8px; min-height: 8px; top: 0; margin-top: 0;" />
+            <ui:Label tabindex="-1" text="Please click a city with color" parse-escape-sequences="true" display-tooltip-when-elided="true" style="font-size: 10px; color: rgb(202, 199, 199); height: 8px; max-height: 8px; min-height: 8px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="ZoomElement" style="flex-grow: 1; justify-content: center; top: 20px;">
+        <ui:Button text="+" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ZoomInButton" style="width: 16px; white-space: nowrap; height: 20px; position: relative; right: 0; align-self: flex-end;" />
+        <ui:Button text="-" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ZoomOutButton" style="flex-shrink: initial; width: 16px; height: 20px; position: relative; align-self: flex-end;" />
+    </ui:VisualElement>
+    <ui:VisualElement name="BottomElement" style="flex-grow: 1; flex-direction: row; justify-content: space-between; height: 30px; max-height: 30px; background-color: rgba(0, 0, 0, 0.41); bottom: 20px; align-self: auto; align-items: auto; padding-left: 5px; padding-right: 5px;">
+        <ui:VisualElement style="flex-grow: 1; flex-direction: row; align-items: auto; align-self: auto;">
+            <ui:VisualElement name="FactionColorElement" style="flex-grow: 1; background-color: rgb(233, 41, 41); width: 20px; max-width: 20px; min-width: 20px; left: 2px; bottom: 0; height: 20px; max-height: 20px; min-height: 20px; align-self: flex-start; top: 5px;" />
+            <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="FactionNameLabel" style="left: 5px; color: rgb(255, 255, 255);" />
+        </ui:VisualElement>
+        <ui:Button text="Start" parse-escape-sequences="true" display-tooltip-when-elided="true" name="StartButton" style="align-self: stretch; flex-direction: column;" />
+    </ui:VisualElement>
+</ui:UXML>

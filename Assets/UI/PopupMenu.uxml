@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement style="flex-grow: 1; align-self: center; justify-content: flex-end; align-items: stretch; width: 100%;">
+        <ui:Button parse-escape-sequences="true" display-tooltip-when-elided="true" name="CloseButton" style="background-color: rgba(0, 0, 0, 0.24); height: 100%; -unity-background-image-tint-color: rgb(255, 255, 255); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        <ui:Button text="Move" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ContinueButton" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        <ui:Button text="Manage" parse-escape-sequences="true" display-tooltip-when-elided="true" name="LoadButton" style="margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+        <ui:Button text="Assign" parse-escape-sequences="true" display-tooltip-when-elided="true" name="SaveButton" style="border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0;" />
+    </ui:VisualElement>
+</ui:UXML>

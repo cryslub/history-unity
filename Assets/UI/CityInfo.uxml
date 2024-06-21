@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/CityInfo.uss?fileID=7433441132597879392&amp;guid=dc3249f0cf5099f499ed492f52ebcbf2&amp;type=3#CityInfo" />
+    <ui:Label tabindex="-1" text="Label" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Name" style="-unity-font-style: bold; font-size: 20px;" />
+    <ui:VisualElement style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+        <ui:FloatField label="Latitude" value="42.2" name="Latitude" style="width: 194px;" />
+        <ui:FloatField label="Longitude" value="42.2" name="Longitude" style="width: 191px;" />
+    </ui:VisualElement>
+    <ui:FloatField label="Elevation Adj." value="42.2" name="ElevationAdj" style="width: 258px;" />
+    <ui:IntegerField label="Population" value="42" name="Population" />
+    <ui:VisualElement name="VisualElement" style="flex-grow: 0; flex-direction: row; height: 31px; flex-shrink: 0;">
+        <ui:Button text="Save" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Save" />
+        <ui:Button text="Redraw" parse-escape-sequences="true" display-tooltip-when-elided="true" name="Redraw" />
+        <ui:Button text="Export City" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExportCity" />
+        <ui:Button text="Export Road" parse-escape-sequences="true" display-tooltip-when-elided="true" name="ExportRoad" />
+    </ui:VisualElement>
+    <ui:VisualElement style="flex-grow: 0; flex-direction: row; flex-shrink: 0;">
+        <ui:DropdownField label="City" index="-1" choices="System.Collections.Generic.List`1[System.String]" name="CityList" style="width: 343px;" />
+        <ui:Button text="Add Road" parse-escape-sequences="true" display-tooltip-when-elided="true" name="AddRoad" />
+    </ui:VisualElement>
+    <ui:ListView name="Roads" focusable="true" header-title="Roads" show-border="false" class="the-uxml-listview" style="height: 301px;" />
+</ui:UXML>

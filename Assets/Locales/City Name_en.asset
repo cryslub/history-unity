@@ -1,0 +1,331 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: City Name_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: d1b3e02838b1caf4e9080775c9d65929, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 23590506496
+    m_Localized: Eridug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 580921233408
+    m_Localized: Urim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 630686650368
+    m_Localized: Unug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3055204077568
+    m_Localized: Larsam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3295164403712
+    m_Localized: Lagash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3367285460992
+    m_Localized: Girsu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3458553516032
+    m_Localized: Umma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3509325565952
+    m_Localized: Shuruppag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4049770024960
+    m_Localized: Adab
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4108821630976
+    m_Localized: Larak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4173271306240
+    m_Localized: Susa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4258767998976
+    m_Localized: Anshan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4348039565312
+    m_Localized: Isfahan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4444634386432
+    m_Localized: Der
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4564075581440
+    m_Localized: Nibru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701882600951808
+    m_Localized: Dilbat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701924447522816
+    m_Localized: Kish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 701963215474688
+    m_Localized: Akshak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702044433977344
+    m_Localized: Zimbir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702112830492672
+    m_Localized: Eshnunna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702290731896832
+    m_Localized: Nuzi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702353008922624
+    m_Localized: Hamoukar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702427445235712
+    m_Localized: Nagar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702460664123392
+    m_Localized: Leilan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702522865651712
+    m_Localized: Nabada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702576816984064
+    m_Localized: Tushpa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702699932389376
+    m_Localized: Chuera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702768094023680
+    m_Localized: Harran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702810217418752
+    m_Localized: Urfa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702855935332352
+    m_Localized: Charchemish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703023611023360
+    m_Localized: Gazientep
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703105852936192
+    m_Localized: Ebla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703150471942144
+    m_Localized: Adana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703189990674432
+    m_Localized: Ugarit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703259599343616
+    m_Localized: Byblos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703325420556288
+    m_Localized: Megiddo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703374196117504
+    m_Localized: Jericho
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703734612660224
+    m_Localized: Urusalim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703789373493248
+    m_Localized: Raqmu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703829164855296
+    m_Localized: Aqaba
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703882847752192
+    m_Localized: Djedet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703920881700864
+    m_Localized: Zau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703958433304576
+    m_Localized: Iunu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 703997373222912
+    m_Localized: Inbu-hedj
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704071843090432
+    m_Localized: Henen-nesut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704122820661248
+    m_Localized: Per-Imen-mat-khent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704305717481472
+    m_Localized: Zawty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704363804397568
+    m_Localized: Tjenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704493500665856
+    m_Localized: Waset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704535351431168
+    m_Localized: Nekhen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704718097256448
+    m_Localized: Abu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 704755892129792
+    m_Localized: Aspandana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705663405297664
+    m_Localized: Urashtu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705858335576064
+    m_Localized: Hamazi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 705931597484032
+    m_Localized: Shekhna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706023876366336
+    m_Localized: Harbe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706058018000896
+    m_Localized: Harranu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706102523760640
+    m_Localized: Karkamish
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706173877260288
+    m_Localized: Khantap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706261349470208
+    m_Localized: Halam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706337228623872
+    m_Localized: Gubla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706401791545344
+    m_Localized: Yareah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706484679380992
+    m_Localized: Rusalim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706546453090304
+    m_Localized: Seir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706598605066240
+    m_Localized: Ailath
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706687230709760
+    m_Localized: Mer-nefer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 709289808924672
+    m_Localized: Mari
+    m_Metadata:
+      m_Items: []
+  - m_Id: 709326198706176
+    m_Localized: Emar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 712768753405952
+    m_Localized: Anbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 706480128561152
+    m_Localized: Malidiya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1460271987724288
+    m_Localized: Sam'al
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2233669475012608
+    m_Localized: Urkesh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2233746482434048
+    m_Localized: Sur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2877371243466752
+    m_Localized: Assur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2902563533524992
+    m_Localized: Gadanu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14242322298081280
+    m_Localized: Awan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14242362789892096
+    m_Localized: Kemet
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
